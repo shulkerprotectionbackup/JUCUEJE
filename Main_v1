@@ -76,7 +76,7 @@
         "enable_auth": "true",
         "global_auth": {
           "users": [
-            {"user": "REPOR_1234", "pass": "passdgdegdegdeword1"}
+            {"user": "REPOR_123E", "pass": "passdgdegdegdeword1"}
             
           ]
         },
